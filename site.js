@@ -57,16 +57,7 @@ audio.addEventListener('timeupdate', () => {
 });
 seek.addEventListener('input', () => { if (Number.isFinite(audio.duration)) audio.currentTime = Number(seek.value) / 100 * audio.duration; });
 
-// Motion plate is the entire solar-ring effect; no glow is generated in CSS/JS.
-const motionPlate = document.querySelector('.glow-motion');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-if (motionPlate && !reduceMotion) {
-  motionPlate.addEventListener('loadeddata', () => {
-    motionPlate.classList.add('ready');
-    motionPlate.play().catch(() => {});
-  }, { once: true });
-  motionPlate.load();
-}
 
 // One sequential entrance choreography for the navigation and hero copy.
 if (!reduceMotion && document.documentElement.animate) {
