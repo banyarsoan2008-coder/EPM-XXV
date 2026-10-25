@@ -1,6 +1,6 @@
 // Personalize these links and the contact email before publishing.
 const artistLinks = {
-  spotify: 'https://open.spotify.com/',
+  spotify: 'https://open.spotify.com/artist/6WPVFf86HUYipZ4226Epk5',
   apple: 'https://music.apple.com/',
   youtube: 'https://youtube.com/',
   instagram: 'https://www.instagram.com/ecopraymarnofficial?mdxt=ZmZ4bXA4a2xlYnQ1',
