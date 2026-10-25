@@ -4,7 +4,7 @@ A mobile-friendly static artist website for GitHub Pages. It uses plain HTML, CS
 
 ## Included artwork
 
-- `assets/images/epmxxv-logo.jpg` — EPM XXV emblem for the site header, footer, and browser icon.
+- `assets/images/epmxxv-logo.png` — transparent EPM XXV emblem for the site header, footer, gallery, and browser icon.
 - `assets/images/epmxxv-portrait.jpg` — artist portrait used in the opening section and photo gallery.
 - `assets/images/epmxxv-poster.jpg` — supplied poster artwork used in the release and gallery sections.
 
