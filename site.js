@@ -3,14 +3,12 @@ const artistLinks = {
   spotify: 'https://open.spotify.com/artist/6WPVFf86HUYipZ4226Epk5',
   apple: 'https://music.apple.com/us/artist/eco-pray-marn/1793651383',
   youtube: 'https://youtube.com/@ecopraymarn',
-  instagram: 'https://www.instagram.com/ecopraymarnofficial/',
-  email: 'hello@example.com'
+  instagram: 'https://www.instagram.com/ecopraymarnofficial/'
 };
 document.querySelectorAll('[data-link]').forEach(link => {
   const destination = artistLinks[link.dataset.link];
   if (destination) link.href = destination;
 });
-document.querySelector('#contactLink').href = `mailto:${artistLinks.email}?subject=EPM%20XXV%20enquiry`;
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 const navToggle = document.querySelector('.nav-toggle');
