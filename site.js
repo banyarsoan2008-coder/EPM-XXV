@@ -1,9 +1,9 @@
-// Personalize these links and the contact email before publishing.
+// Official EPM XXV artist links.
 const artistLinks = {
   spotify: 'https://open.spotify.com/artist/6WPVFf86HUYipZ4226Epk5',
-  apple: 'https://music.apple.com/',
-  youtube: 'https://youtube.com/',
-  instagram: 'https://www.instagram.com/ecopraymarnofficial?mdxt=ZmZ4bXA4a2xlYnQ1',
+  apple: 'https://music.apple.com/us/artist/eco-pray-marn/1793651383',
+  youtube: 'https://youtube.com/@ecopraymarn',
+  instagram: 'https://www.instagram.com/ecopraymarnofficial/',
   email: 'hello@example.com'
 };
 document.querySelectorAll('[data-link]').forEach(link => {

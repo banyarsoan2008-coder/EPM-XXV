@@ -23,6 +23,13 @@ body{font-family:'Anta',var(--sans)}
 @media(max-width:560px){.hero{height:100svh;min-height:580px;padding:82px 20px 60px}.hero-content{transform:translateY(-8svh)}.hero-badge{font-size:11px;margin-bottom:21px}.hero h1{font-size:clamp(37px,10.2vw,54px);line-height:1.13}.hero-copy{font-size:13px;max-width:360px;margin:17px 0 22px}.desktop-break{display:none}.hero-actions{gap:9px}.hero .button{min-width:auto;padding:12px 16px;font-size:13px}.hero-glow{width:190vw;max-width:none;bottom:-1svh}.hero-index{gap:10px}.hero-index span:last-child{letter-spacing:.05em}}
 @media(prefers-reduced-motion:reduce){.glow-motion{display:none!important}.hero-content,.hero-content>*{animation:none!important;transition:none!important}}
 
+.hero-socials{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:24px;font:9px var(--mono);letter-spacing:.06em}
+.hero-socials>span{color:#a49a97;letter-spacing:.14em}
+.hero-socials a{color:#eee;text-underline-offset:4px;transition:color .2s}
+.hero-socials a:hover{color:#ff454d}
+@media(max-width:900px){.hero-socials{gap:12px;font-size:8px}}
+@media(max-width:560px){.hero-socials{gap:10px 14px;margin-top:18px}.hero-socials>span{width:100%}}
+
 /* Artist identity and supplied imagery */
 :root{--red:#ed2028;--red2:#a80e18}
 .brand-logo{display:block;width:52px;height:36px;object-fit:cover;object-position:center;border:1px solid rgba(108,213,255,.24);box-shadow:0 0 20px rgba(30,160,215,.12)}
