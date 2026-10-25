@@ -3,7 +3,7 @@ const artistLinks = {
   spotify: 'https://open.spotify.com/',
   apple: 'https://music.apple.com/',
   youtube: 'https://youtube.com/',
-  instagram: 'https://instagram.com/',
+  instagram: 'https://www.instagram.com/ecopraymarnofficial?mdxt=ZmZ4bXA4a2xlYnQ1',
   email: 'hello@example.com'
 };
 document.querySelectorAll('[data-link]').forEach(link => {
